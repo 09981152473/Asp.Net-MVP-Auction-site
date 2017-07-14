@@ -32,7 +32,7 @@
                     <asp:Label runat="server" ID="EurName" CssClass="col-md-2 control-label"></asp:Label>
                 </div>
                     <div class="form-group">
-                        <asp:Label runat="server" ID="SellerLbl" CssClass="col-md-2 control-label">Kontakt do sprzedawcy: </asp:Label>
+                        <asp:Label runat="server" ID="SellerLbl" CssClass="col-md-2 control-label"></asp:Label>
                         <asp:Label runat="server" ID="SellerName" CssClass="col-md-2 control-label"><%# Eval ("AspNetUsers.UserName") %></asp:Label>
                     </div>
                     </div>
