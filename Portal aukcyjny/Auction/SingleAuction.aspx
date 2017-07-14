@@ -4,35 +4,35 @@
         <ItemTemplate>
             <div class="form-horizontal">
                     <div class="form-group">
-                        <asp:Label runat="server"  ID="BrandLbl" CssClass="col-md-2 control-label">Marka: </asp:Label>
+                        <asp:Label runat="server"  ID="BrandLbl" CssClass="col-md-2 control-label"></asp:Label>
                         <asp:Label runat="server"  ID="BrandName" CssClass="col-md-2 control-label"><%# Eval ("Brand") %></asp:Label>
                     </div>
                     <div class="form-group">
-                        <asp:Label runat="server"   ID="ModelLbl" CssClass="col-md-2 control-label">Model: </asp:Label>
+                        <asp:Label runat="server"   ID="ModelLbl" CssClass="col-md-2 control-label"></asp:Label>
                         <asp:Label runat="server"   ID="ModeName" CssClass="col-md-2 control-label"><%# Eval ("Model") %></asp:Label>
                     </div>
                     <div class="form-group">
-                        <asp:Label runat="server"  ID="MileageLbl" CssClass="col-md-2 control-label">Przebieg: </asp:Label>
+                        <asp:Label runat="server"  ID="MileageLbl" CssClass="col-md-2 control-label"></asp:Label>
                         <asp:Label runat="server"  ID="MileageName" CssClass="col-md-2 control-label"><%# Eval ("Mileage") %></asp:Label>
                     </div>
                     <div class="form-group">
-                        <asp:Label runat="server"  Id="ProductionYearLbl" CssClass="col-md-2 control-label">Rok produkcji: </asp:Label>
+                        <asp:Label runat="server"  Id="ProductionYearLbl" CssClass="col-md-2 control-label"></asp:Label>
                         <asp:Label runat="server"  ID="ProductionYearName" CssClass="col-md-2 control-label"><%# Eval ("ProductionYear") %></asp:Label>
                     </div>
                     <div class="form-group">
-                        <asp:Label runat="server"  ID="FuelLbl" CssClass="col-md-2 control-label">Rodzaj paliwa: </asp:Label>
+                        <asp:Label runat="server"  ID="FuelLbl" CssClass="col-md-2 control-label"></asp:Label>
                         <asp:Label runat="server"  ID="FuelName" CssClass="col-md-2 control-label"><%# Eval ("Fuel") %></asp:Label>
                     </div>
                     <div class="form-group">
-                        <asp:Label runat="server" ID="PriceLbl" CssClass="col-md-2 control-label" Text="Cena"></asp:Label>
+                        <asp:Label runat="server" ID="PriceLbl" CssClass="col-md-2 control-label"></asp:Label>
                         <asp:Label runat="server" ID="PriceName" CssClass="col-md-2 control-label"><%# Eval ("Price") %></asp:Label>
                     </div>
                 <div class="form-group">
-                    <asp:Label runat="server" ID="EurLbl" CssClass="col-md-2 control-label">Cena w euro: </asp:Label>
+                    <asp:Label runat="server" ID="EurLbl" CssClass="col-md-2 control-label"></asp:Label>
                     <asp:Label runat="server" ID="EurName" CssClass="col-md-2 control-label"></asp:Label>
                 </div>
                     <div class="form-group">
-                        <asp:Label runat="server" ID="SellerLbl" CssClass="col-md-2 control-label">Kontakt do sprzedawcy: </asp:Label>
+                        <asp:Label runat="server" ID="SellerLbl" CssClass="col-md-2 control-label"></asp:Label>
                         <asp:Label runat="server" ID="SellerName" CssClass="col-md-2 control-label"><%# Eval ("AspNetUsers.UserName") %></asp:Label>
                     </div>
                     </div>
