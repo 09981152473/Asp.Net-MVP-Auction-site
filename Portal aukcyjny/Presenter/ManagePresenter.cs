@@ -8,8 +8,8 @@ namespace Portal_aukcyjny.Presenter
     public class ManagePresenter
     {
         View.IPathView _manageView;
-        Repositories.ManageRepository _manageModel;
-        public ManagePresenter(View.IPathView view, Repositories.ManageRepository model)
+        Repositories.UserRepository _manageModel;
+        public ManagePresenter(View.IPathView view, Repositories.UserRepository model)
         {
             _manageView = view;
             _manageModel = model;
@@ -17,7 +17,7 @@ namespace Portal_aukcyjny.Presenter
         public void Change()
         {
             _manageModel.PswdChange();
-            _manageView.path = _manageModel.path;
+            _manageView.path = _manageModel.ManagePath;
         }
     }
 }

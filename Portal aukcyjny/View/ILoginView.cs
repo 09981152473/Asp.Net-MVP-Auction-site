@@ -8,8 +8,8 @@ namespace Portal_aukcyjny.View
 {
     public interface ILoginView
     {
-        string path { get; set; }
-        string failureText { get; set; }
-        bool errorMessage { get; set; }
+        string Loginpath { get; set; }
+        string FailureMassage { get; set; }
+        bool ErrorMessage { get; set; }
     }
 }

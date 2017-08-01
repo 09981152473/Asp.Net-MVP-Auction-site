@@ -376,6 +376,15 @@ namespace Portal_aukcyjny.Resource {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Wyszukaj.
+        /// </summary>
+        internal static string Search {
+            get {
+                return ResourceManager.GetString("Search", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Witaj,.
         /// </summary>
         internal static string WelcomeLabel {

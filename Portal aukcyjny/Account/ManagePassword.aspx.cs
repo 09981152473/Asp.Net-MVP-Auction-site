@@ -17,14 +17,20 @@ namespace Portal_aukcyjny.Account
         protected void Page_Load(object sender, EventArgs e)
         {
             CheckBox box = (CheckBox)Master.FindControl("lang");
+            if (!IsPostBack)
+            {
+                bool checkbox = (bool)Session["checkbox"];
+                box.Checked = checkbox;
+            }
             Presenter.ResManPresenter respresenter = new Presenter.ResManPresenter(this, new Repositories.ResManModels());
             respresenter.language(box.Checked);
             LanguageChange(ResMan);
+            Session["checkbox"] = box.Checked;
         }
 
         protected void ChangePassword_Click(object sender, EventArgs e)
         {
-            Presenter.ManagePasswordPresenter presenter = new Presenter.ManagePasswordPresenter(this, new Repositories.ManagePasswordRepository());
+            Presenter.ManagePasswordPresenter presenter = new Presenter.ManagePasswordPresenter(this, new Repositories.UserRepository());
             presenter.ChangePassword(CurrentPassword.Text.Trim(), NewPassword.Text.Trim());
             Response.Redirect(path);
         }

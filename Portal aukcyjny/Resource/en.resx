@@ -222,6 +222,9 @@
   <data name="RememberMe" xml:space="preserve">
     <value>Remember me</value>
   </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
   <data name="WelcomeLabel" xml:space="preserve">
     <value>Welcome,</value>
   </data>

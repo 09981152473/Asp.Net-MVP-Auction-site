@@ -21,14 +21,19 @@ namespace Portal_aukcyjny.Account
         protected void Page_Load(object sender, EventArgs e)
         {
             CheckBox box = (CheckBox)Master.FindControl("lang");
+            if (!IsPostBack)
+            {
+                bool checkbox = (bool)Session["checkbox"];
+                box.Checked = checkbox;
+            }
             Presenter.ResManPresenter respresenter = new Presenter.ResManPresenter(this, new Repositories.ResManModels());
             respresenter.language(box.Checked);
             LanguageChange(ResMan);
+            Session["checkbox"] = box.Checked;
         }
-
         protected void CreateUser_Click(object sender, EventArgs e)
         {
-            Presenter.RegisterPresenter presenter = new Presenter.RegisterPresenter(this, new RegisterRepository());
+            Presenter.RegisterPresenter presenter = new Presenter.RegisterPresenter(this, new UserRepository());
             presenter.RegisterUser(Email.Text.Trim(), Password.Text.Trim());
             Response.Redirect(path);
         }

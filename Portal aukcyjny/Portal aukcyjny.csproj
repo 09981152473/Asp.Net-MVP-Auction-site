@@ -212,7 +212,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Account\Web.config" />
+    <Content Include="Account\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -382,22 +384,9 @@
     <Compile Include="Auction\NewAuction.aspx.designer.cs">
       <DependentUpon>NewAuction.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Repositories\AuctionsRepository.cs" />
     <Compile Include="Repositories\ICurrencyRepository.cs" />
-    <Compile Include="Repositories\LoginRepository.cs" />
-    <Compile Include="Repositories\ManageRepository.cs">
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Repositories\ManagePasswordRepository.cs">
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Repositories\NewAuctionRepository.cs">
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Repositories\RegisterRepository.cs" />
     <Compile Include="Models\ResManModels.cs" />
-    <Compile Include="Repositories\SingleAuctionRepository.cs">
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
     <Compile Include="Models\PortalModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -429,6 +418,9 @@
     </Compile>
     <Compile Include="Auction\SingleAuction.aspx.designer.cs">
       <DependentUpon>SingleAuction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Repositories\UserRepository.cs">
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Resource\en.Designer.cs">
       <AutoGen>True</AutoGen>

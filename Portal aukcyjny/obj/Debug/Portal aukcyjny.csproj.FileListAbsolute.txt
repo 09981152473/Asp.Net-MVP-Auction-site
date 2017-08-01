@@ -1,0 +1,168 @@
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\ApplicationInsights.config
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\csc.exe
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\System.Collections.Immutable.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\vbc.exe
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\VBCSCompiler.exe
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\VBCSCompiler.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Portal aukcyjny.dll.config
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Portal aukcyjny.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Portal aukcyjny.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Antlr3.Runtime.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\AspNet.ScriptManager.bootstrap.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\EntityFramework.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\EntityFramework.SqlServer.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.Web.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.WindowsServer.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.ApplicationInsights.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Google.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Web.Infrastructure.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Newtonsoft.Json.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Owin.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Web.Optimization.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\WebGrease.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.Web.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.WindowsServer.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.ApplicationInsights.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Web.Optimization.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Antlr3.Runtime.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Newtonsoft.Json.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\EntityFramework.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\EntityFramework.SqlServer.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Google.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\obj\Debug\Portal aukcyjny.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\obj\Debug\Portal aukcyjny.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\obj\Debug\Portal aukcyjny.pdb
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\ApplicationInsights.config
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\csc.exe
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\vbc.exe
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\VBCSCompiler.exe
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Portal aukcyjny.dll.config
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Portal aukcyjny.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Portal aukcyjny.pdb
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Antlr3.Runtime.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\EntityFramework.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\EntityFramework.SqlServer.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.Web.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Newtonsoft.Json.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Owin.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Web.Optimization.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\WebGrease.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.Web.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Web.Optimization.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Antlr3.Runtime.pdb
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Newtonsoft.Json.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\EntityFramework.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\EntityFramework.SqlServer.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\obj\Debug\Portal aukcyjny.csprojResolveAssemblyReference.cache
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\obj\Debug\Portal aukcyjny.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\obj\Debug\Portal aukcyjny.pdb
+C:\Users\Administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\obj\Debug\Portal_aukcyjny.Resource.en.resources
+C:\Users\Administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\obj\Debug\Portal_aukcyjny.Resource.pl.resources
+C:\Users\Administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\obj\Debug\Portal aukcyjny.csproj.GenerateResource.Cache
+C:\Users\Administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Web.Http.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Web.Http.xml
+C:\Users\Administrator\documents\visual studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Web.Http.WebHost.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Net.Http.Formatting.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Web.Http.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Web.Http.WebHost.dll
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Net.Http.Formatting.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Web.Http.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\bin\System.Web.Http.WebHost.xml
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\obj\Debug\Portal_aukcyjny.Resource.en.resources
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\obj\Debug\Portal_aukcyjny.Resource.pl.resources
+C:\Users\Konrad Czarny\Documents\Visual Studio 2017\Projects\Portal aukcyjny\Portal aukcyjny\obj\Debug\Portal aukcyjny.csproj.GenerateResource.Cache

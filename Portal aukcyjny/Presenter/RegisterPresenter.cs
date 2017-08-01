@@ -16,15 +16,15 @@ namespace Portal_aukcyjny.Presenter
     public class RegisterPresenter
     {
         View.IPathView _registerView;
-        Repositories.RegisterRepository _registerModels;
-        public RegisterPresenter(View.IPathView rview, Repositories.RegisterRepository rmodel)
+        Repositories.UserRepository _registerModels;
+        public RegisterPresenter(View.IPathView rview, Repositories.UserRepository rmodel)
         {
             _registerView = rview;
             _registerModels = rmodel;
         }
         public void RegisterUser(string email, string password)
         {
-            _registerView.path= _registerModels.path(email, password);
+            _registerView.path= _registerModels.RegisterPath(email, password);
         }
     }
 }

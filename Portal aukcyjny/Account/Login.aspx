@@ -8,11 +8,11 @@
             <section id="loginForm">
                 <div class="form-horizontal">
                     <hr />
-                    <asp:PlaceHolder runat="server" ID="ErrorMessage" Visible="false">
+ <%--                   <asp:PlaceHolder runat="server" ID="ErrorMessage" Visible="false">
                         <p class="text-danger">
                             <asp:Literal runat="server" ID="FailureText" />
                         </p>
-                    </asp:PlaceHolder>
+                    </asp:PlaceHolder>--%>
                     <div class="form-group">
                         <asp:Label ID="mail" runat="server" AssociatedControlID="Email" CssClass="col-md-2 control-label">E-mail</asp:Label>
                         <div class="col-md-10">

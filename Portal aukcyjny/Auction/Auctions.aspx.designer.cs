@@ -13,6 +13,33 @@ namespace Portal_aukcyjny {
     public partial class Auctions {
         
         /// <summary>
+        /// searchLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label searchLbl;
+        
+        /// <summary>
+        /// search control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox search;
+        
+        /// <summary>
+        /// SearchBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SearchBtn;
+        
+        /// <summary>
         /// AuctionsList control.
         /// </summary>
         /// <remarks>
@@ -22,12 +49,12 @@ namespace Portal_aukcyjny {
         protected global::System.Web.UI.WebControls.ListView AuctionsList;
         
         /// <summary>
-        /// EntityDataSource1 control.
+        /// AuctionsEntity control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.EntityDataSource EntityDataSource1;
+        protected global::System.Web.UI.WebControls.EntityDataSource AuctionsEntity;
     }
 }

@@ -19,7 +19,7 @@ namespace Portal_aukcyjny.Account {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder ErrorMessage;
+        protected global::System.Web.UI.WebControls.PlaceHolder errorMessage;
         
         /// <summary>
         /// FailureText control.

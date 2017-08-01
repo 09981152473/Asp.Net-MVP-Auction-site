@@ -16,21 +16,18 @@ namespace Portal_aukcyjny.Presenter
     public class LoginPresenter
     {
         View.ILoginView _loginView;
-        Repositories.LoginRepository _loginModel;
-        public LoginPresenter(View.ILoginView view, Repositories.LoginRepository model)
+        Repositories.UserRepository _loginModel;
+        public LoginPresenter(View.ILoginView view, Repositories.UserRepository model)
         {
             _loginView = view;
             _loginModel = model;
         }
         public void LoginUser(string email, string password, bool rememberMe)
         {
-
-            _loginModel.login(email, password, rememberMe);
-            _loginView.path = _loginModel.path;
-            _loginView.failureText = _loginModel.FailureMessage;
-            _loginView.errorMessage = _loginModel.ErrorMessage;
-
-            
+            _loginModel.Login(email, password, rememberMe);
+            _loginView.Loginpath = _loginModel.Loginpath;
+            _loginView.FailureMassage = _loginModel.FailureMessage;
+            _loginView.ErrorMessage = _loginModel.ErrorMessage; 
         }
     }
 }

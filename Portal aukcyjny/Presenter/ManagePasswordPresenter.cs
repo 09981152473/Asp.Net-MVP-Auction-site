@@ -16,15 +16,15 @@ namespace Portal_aukcyjny.Presenter
     public class ManagePasswordPresenter : System.Web.UI.Page
     {
         View.IPathView _managePasswordView;
-        Repositories.ManagePasswordRepository _managePasswordModel;
-        public ManagePasswordPresenter(View.IPathView view, Repositories.ManagePasswordRepository model)
+        Repositories.UserRepository _managePasswordModel;
+        public ManagePasswordPresenter(View.IPathView view, Repositories.UserRepository model)
         {
             _managePasswordView = view;
             _managePasswordModel = model;
         }
         public void ChangePassword(string currentPassword, string newPassword)
         {
-            _managePasswordView.path = _managePasswordModel.path(currentPassword, newPassword);
+            _managePasswordView.path = _managePasswordModel.ManagePasswordPath(currentPassword, newPassword);
         }
 
 

@@ -14,24 +14,29 @@ namespace Portal_aukcyjny.Account
     public partial class Login : Page, View.ILoginView, View.IResManView
     {
         public ResourceManager ResMan { get; set; }
-        public string path { get; set; }
-        public string failureText { get; set; }
-        public bool errorMessage { get; set; }
-
+        public string Loginpath { get; set; }
+        public string FailureMassage { get; set; }
+        public bool ErrorMessage { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
             CheckBox box = (CheckBox)Master.FindControl("lang");
+            if(!IsPostBack)
+            {
+                bool checkbox = (bool)Session["checkbox"];
+                box.Checked = checkbox;
+            }
             Presenter.ResManPresenter respresenter = new Presenter.ResManPresenter(this, new ResManModels());
             respresenter.language(box.Checked);
             LanguageChange(ResMan);
+            Session["checkbox"] = box.Checked;
         }
 
         protected void LogIn(object sender, EventArgs e)
         {
            
-            Presenter.LoginPresenter presenter = new Presenter.LoginPresenter(this, new LoginRepository());
+            Presenter.LoginPresenter presenter = new Presenter.LoginPresenter(this, new UserRepository());
             presenter.LoginUser(Email.Text.Trim(), Password.Text.Trim(), RememberMe.Checked);
-            Response.Redirect(path);
+            Response.Redirect(Loginpath);
         }
         protected void LanguageChange(ResourceManager ResMan)
         {

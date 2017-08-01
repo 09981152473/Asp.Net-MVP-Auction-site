@@ -95,7 +95,7 @@ namespace Portal_aukcyjny
             ManageBtn.InnerText = ResMan.GetString("WelcomeLabel") + " " + Context.User.Identity.GetUserName();
             LoginStatus.LogoutText = ResMan.GetString("Logout");
             ManageBtn.Title = ResMan.GetString("AccountManagement");
-           
+            Session["checkbox"] = lang.Checked;
         }
 
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)

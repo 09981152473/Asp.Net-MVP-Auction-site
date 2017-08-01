@@ -13,9 +13,6 @@ namespace Portal_aukcyjny
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-            
-
         }
     }
 }

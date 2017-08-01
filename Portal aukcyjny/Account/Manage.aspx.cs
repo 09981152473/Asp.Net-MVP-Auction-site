@@ -22,12 +22,18 @@ namespace Portal_aukcyjny.Account
         protected void Page_Load()
         {
             CheckBox box = (CheckBox)Master.FindControl("lang");
+            if (!IsPostBack)
+            {
+                bool checkbox = (bool)Session["checkbox"];
+                box.Checked = checkbox;
+            }
             Presenter.ResManPresenter respresenter = new Presenter.ResManPresenter(this, new ResManModels());
-            Presenter.ManagePresenter presenter = new Presenter.ManagePresenter(this, new ManageRepository());
+            Presenter.ManagePresenter presenter = new Presenter.ManagePresenter(this, new UserRepository());
             respresenter.language(box.Checked);
             presenter.Change();
             Form.Action = ResolveUrl(path);
             LanguageChange(ResMan);
+            Session["checkbox"] = box.Checked;
         }
         protected void LanguageChange(ResourceManager ResMan)
         {

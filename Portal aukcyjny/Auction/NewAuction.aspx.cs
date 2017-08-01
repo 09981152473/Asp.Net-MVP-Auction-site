@@ -16,14 +16,19 @@ namespace Portal_aukcyjny
 {
     public partial class NewAuction : Page, View.INewAuctionView, View.IResManView
     {
-        public EntityDataSource entity { get; set; }
         public ResourceManager ResMan { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
             CheckBox box = (CheckBox)Master.FindControl("lang");
+            if (!IsPostBack)
+            {
+                bool checkbox = (bool)Session["checkbox"];
+                box.Checked = checkbox;
+            }
             Presenter.ResManPresenter respresenter = new Presenter.ResManPresenter(this, new Repositories.ResManModels());
             respresenter.language(box.Checked);
             LanguageChange(ResMan);
+            Session["checkbox"] = box.Checked;
             ModelEntity.Where = "it.[Brand] = @brand";
             if(!IsPostBack)
             {
@@ -35,7 +40,7 @@ namespace Portal_aukcyjny
 
         protected void CreateAuction_Click(object sender, EventArgs e)
         {
-            Presenter.NewAuctionPresenter presenter = new Presenter.NewAuctionPresenter(this,new Portal_aukcyjny.Repositories.NewAuctionRepository());
+            Presenter.NewAuctionPresenter presenter = new Presenter.NewAuctionPresenter(this,new Portal_aukcyjny.Repositories.AuctionsRepository());
             presenter.CreateAuction(ModelBrand.SelectedItem.Text.Trim(), Model.SelectedItem.Text.Trim(), Mileage.Text.Trim(), ProductionYear.Text.Trim(), Fuel.SelectedItem.Text.Trim(), Price.Text.Trim(), Picture.FileName);
             Picture.SaveAs(@"C:\Users\Administrator\Documents\Visual Studio 2015\Projects\Portal aukcyjny\Portal aukcyjny\Content\" + Picture.FileName);
             string message = string.Empty;

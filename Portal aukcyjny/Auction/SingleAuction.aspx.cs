@@ -20,20 +20,23 @@ namespace Portal_aukcyjny
         protected void Page_Load(object sender, EventArgs e)
         {
             CheckBox box = (CheckBox)Master.FindControl("lang");
-            Presenter.ResManPresenter respresenter = new Presenter.ResManPresenter(this, new Repositories.ResManModels());
-            respresenter.language(box.Checked);
-            LanguageChange(ResMan);
             if (!IsPostBack)
             {
+                bool checkbox = (bool)Session["checkbox"];
+                box.Checked = checkbox;
                 AuctionEntity.WhereParameters.Add(new Parameter("auctionid", TypeCode.Int32, Request.QueryString["AuctionId"]));
                 AuctionEntity.Where = "it.[Id] = @auctionid";
                 CommentsEntity.WhereParameters.Add(new Parameter("auctionid", TypeCode.Int32, Request.QueryString["AuctionId"]));
                 CommentsEntity.Where = "it.[AuctionId] = @auctionid";
             }
+            Presenter.ResManPresenter respresenter = new Presenter.ResManPresenter(this, new Repositories.ResManModels());
+            respresenter.language(box.Checked);
+            LanguageChange(ResMan);
+            Session["checkbox"] = box.Checked;
         }       
         protected void btn_Submit_Click(object sender, EventArgs e)    
         {
-            Presenter.SingleAuctionPresenter presenter = new Presenter.SingleAuctionPresenter(this, new Repositories.SingleAuctionRepository());
+            Presenter.SingleAuctionPresenter presenter = new Presenter.SingleAuctionPresenter(this, new Repositories.AuctionsRepository());
             presenter.Submit(txtName.Text, txtEmail.Text, txtComment.Text, Request.QueryString["AuctionId"]);
             Response.Redirect(Request.RawUrl);
 

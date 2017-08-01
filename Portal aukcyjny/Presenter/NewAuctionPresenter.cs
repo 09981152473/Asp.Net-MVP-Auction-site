@@ -15,15 +15,15 @@ namespace Portal_aukcyjny.Presenter
     public class NewAuctionPresenter
     {
         View.INewAuctionView _newAuctionView;
-        Repositories.NewAuctionRepository _newAuctionRepo;
-        public NewAuctionPresenter(View.INewAuctionView view, Repositories.NewAuctionRepository repo)
+        Repositories.AuctionsRepository _newAuctionRepo;
+        public NewAuctionPresenter(View.INewAuctionView view, Repositories.AuctionsRepository repo)
         {
             _newAuctionView = view;
             _newAuctionRepo = repo;
         }
         public void CreateAuction(string brand,string model, string mileage, string productionyear, string fuel, string price, string picture)
         {
-            _newAuctionRepo.create(brand,model, mileage, productionyear, fuel, price, picture);
+            _newAuctionRepo.CreateAuction(brand,model, mileage, productionyear, fuel, price, picture);
         }
     }
 }

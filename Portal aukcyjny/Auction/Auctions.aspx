@@ -1,8 +1,17 @@
 ﻿<%@ Page Title="Dostępne aukcje" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Auctions.aspx.cs" Inherits="Portal_aukcyjny.Auctions" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    
-    <asp:ListView ID="AuctionsList" runat="server" GroupItemCount="5" GroupPlaceholderID="GroupPlaceHolder" ItemPlaceholderID="ItemPlaceHolder" DataSourceID="EntityDataSource1">
+    <hr />
+        <div class="form-horizontal">
+            <div class="form-group">
+                <asp:Label runat="server" ID="searchLbl"></asp:Label>
+                <asp:TextBox runat="server" ID="search"></asp:TextBox>
+            </div>
+            <div class="form-group">
+                <asp:Button runat="server" ID="SearchBtn"  OnClick="SearchBtn_Click" Text="." CssClass="btn btn-default" />
+            </div>
+        </div>
+    <asp:ListView ID="AuctionsList" runat="server" GroupItemCount="5" GroupPlaceholderID="GroupPlaceHolder" ItemPlaceholderID="ItemPlaceHolder" DataSourceID="AuctionsEntity">
         <LayoutTemplate>
             <table>
                 <asp:PlaceHolder ID="GroupPlaceHolder" runat="server" />
@@ -36,6 +45,6 @@
             </div>
         </EmptyDataTemplate>
     </asp:ListView>
-    <asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=PortalAukcyjnyCZEntities" DefaultContainerName="PortalAukcyjnyCZEntities" EnableFlattening="False" EntitySetName="AspNetAuctions" Select="it.[PhotoPath], it.[Model], it.[Brand], it.[Id]">
+    <asp:EntityDataSource ID="AuctionsEntity" runat="server" ConnectionString="name=PortalAukcyjnyCZEntities" DefaultContainerName="PortalAukcyjnyCZEntities" EnableFlattening="False" EntitySetName="AspNetAuctions" Select="it.[PhotoPath], it.[Model], it.[Brand], it.[Id]">
     </asp:EntityDataSource>
 </asp:Content>
