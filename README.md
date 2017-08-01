@@ -7,4 +7,4 @@ MVP Pattern
 Repository Pattern
 Resources sytem (english and polish language)
 Entity Data Model ORM
-Microsoft SQL Server 2016 (required for application to work)
+Microsoft SQL Server 2016 (required)
