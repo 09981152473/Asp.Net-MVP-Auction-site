@@ -1,15 +1,33 @@
-# Asp.Net-MVP-Auction-site
-Simple, multi language car auction site.
+# Asp.Net MVP Auction Site
 
-Technologies/patterns/systems used:
+Multilanguage Auction site written as a learning project on MVP pattern.
 
-MVP Pattern
+## Getting Started
 
-Repository Pattern
+Simply launch a project in visual studio.
 
-Resources sytem (english and polish language)
+## Used
 
-Entity Data Model ORM
+*MVP pattern
+*Repository pattern
+*Resources system
+*Entity Data Model ORM
+*Microsoft SQL Server 2016 
 
-Microsoft SQL Server 2016 (required)
 
+### Prerequisites
+
+* Visual Studio
+* MS SQL Server 2016
+
+## Built With
+
+* [Visual Studio 2017](https://www.tts.com.pl/Landing/Visual-Studio-2017-Professional?gclid=EAIaIQobChMI2_HfqqTF1QIVTDwbCh085gtwEAAYASAAEgLyk_D_BwE) - IDE
+
+## Authors
+
+* **Konrad Czarny** - *Initial work* - [Linkedin profile](https://www.linkedin.com/in/konradczarny/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
